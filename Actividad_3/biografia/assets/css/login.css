@@ -1,0 +1,17 @@
+section#login {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+section#login > div {
+    background: linear-gradient(90deg, #9edbff, #009ffd);
+    max-width: 400px;
+    border-radius: 5px;
+    padding: 2.5em 1em;
+}
+
+section#login form {
+    padding: 0;
+}

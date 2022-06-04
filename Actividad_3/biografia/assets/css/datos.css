@@ -1,0 +1,44 @@
+/* DATOS PERSONALES */
+
+main .datos-personales {
+    width: 100%;
+    background: linear-gradient(93.21deg, #6e45e2 0%, #88d3ce 100%);
+    padding: 10px 0 30px;
+}
+
+.datos-personales .contenedor {
+    padding: 0 20px;
+}
+
+main .datos-personales h2 {
+    text-align: center;
+}
+
+main .datos-personales .datos {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+main .contenedor .datos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+main .contenedor .datos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+main .contenedor .datos ul li {
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin: 0;
+}
+
+main .contenedor .datos ul li {
+    margin-bottom: 10px;
+    font-weight: 700;
+}

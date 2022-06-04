@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+header, h2 {
+    width: 100%;
+    background-color: #00ab78;
+}
+
+/* main */
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+main section {
+    text-align: center;
+}
+
+main section p {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+main .actividades-lista {
+    list-style: none;
+}
+
+main .actividades-lista h2 {
+    text-align: left;
+    padding: 5px 20px;
+    margin: 20px 0 0;
+}
+
+main .actividades-lista ul {
+    background-color: #f8f8f8;
+    list-style: inside;
+    padding: 20px 40px ;
+}
+
+main .actividades-lista ul li {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Documento</title>
+        <link rel="stylesheet" href="/Actividad_3/biografia/assets/css/style.css" />
+        <link rel="stylesheet" href="/Actividad_3/biografia/assets/css/tablas.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Tablas</h1>
+        </header>
+        <nav>
+            <ul class="contenedor">
+                <li>
+                    <ul>
+                        <li>
+                            <a href="/Actividad_3/biografia/">Página principal</a>
+                        </li>
+                        <li>
+                            <a href="/Actividad_3/biografia/pages/about.html">Biografia</a>
+                        </li>
+                        <li>
+                            <a href="/Actividad_3/maquetado_1/" target="_blank">Curriculum</a>
+                        </li>
+                        <li>
+                            <a href="/Actividad_3/maquetado_2/" target="_blank">Invitación</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/Actividad_3/biografia/pages/formulario_ingreso.html"
+                        >Iniciar sesión</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <main id="tablas">
+            <section class="contenedor contenedor-tabla">
+                <div class="tabla">
+                    <table id="estudios">
+                        <caption>
+                            Estudios
+                        </caption>
+                        <thead>
+                            <th>Nivel</th>
+                            <th>Escuela</th>
+                            <th>Turno</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Primaria</td>
+                                <td>Jose María Morelos y Pavón</td>
+                                <td>Matutino</td>
+                            </tr>
+                            <tr>
+                                <td>Secundaria</td>
+                                <td>Secundaria Tecnica #24</td>
+                                <td>Matutino</td>
+                            </tr>
+                            <tr>
+                                <td>Preparatoria</td>
+                                <td>
+                                    Centro de Bachillerato Tecnologico Industrial y de Servicios
+                                </td>
+                                <td>Matutino</td>
+                            </tr>
+                            <tr>
+                                <td>Universidad</td>
+                                <td>Universidad Tecnológica Metropolitana</td>
+                                <td>-----------</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <br />
+
+            <section class="contenedor contenedor-tabla">
+                <div class="tabla">
+                    <table id="pasatiempos">
+                        <caption>
+                            Pasatiempos
+                        </caption>
+                        <thead>
+                            <th>Pasatiempo</th>
+                            <th>Descripción</th>
+                            <th>Imagen</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jugar Minecraft</td>
+                                <td>
+                                    Me gusta jugar Minecraft en su versión Multiplataforma (Bedrock)
+                                </td>
+                                <td>
+                                    <img
+                                        src="/Actividad_3/biografia/assets/images/minecraft.png"
+                                        alt="imagen de minecraft"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Escuchar Musica</td>
+                                <td>
+                                    Generalmente escucho música cuando estoy haciendo una actividad
+                                    y me gusta tener algo de fondo, normalmente cuando hago tarea,
+                                    juego o me encuentro limpiando
+                                </td>
+                                <td>
+                                    <img
+                                        src="/Actividad_3/biografia/assets/images/musica.png"
+                                        alt="imagen de alguien escuchando mpusica"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Programar</td>
+                                <td>
+                                    Programo en mis tiempos libres, despues de haber terminado la
+                                    preparatoria me tome un año de sabatico, año en el cual estuve
+                                    estudiando y desarrollando mis habilidades de desarrollo WEB
+                                </td>
+                                <td>
+                                    <img
+                                        src="/Actividad_3/biografia/assets/images/programacion.png"
+                                        alt="imagen de programación"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Ver Series</td>
+                                <td>
+                                    Normalmente veo series de comedia o de acción, ultimamente junto
+                                    a mi novia Ingrid, actualmente estamos viendo:
+                                    <ul>
+                                        <li>Game Of Thrones</li>
+                                        <li>The Big Bang Theory</li>
+                                        <li>Shingeki No Kyjin</li>
+                                        <li>Kimetsu No Yaiba</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <img
+                                        src="/Actividad_3/biografia/assets/images/series.png"
+                                        alt="imagenes de series"
+                                    />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="contenedor">
+                <h2>Deja un comentario</h2>
+                <form>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+                    </div>
+                    <div>
+                        <label for="correo">Correo:</label>
+                        <input
+                            type="email"
+                            id="correo"
+                            name="correo"
+                            placeholder="Correo: ejemplo@ejemplo.com"
+                        />
+                    </div>
+                    <div>
+                        <label for="comentario">Comentario:</label>
+                        <textarea
+                            name="comentario"
+                            id="comentario"
+                            cols="30"
+                            rows="10"
+                            placeholder=""
+                        ></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" />
+                    </div>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

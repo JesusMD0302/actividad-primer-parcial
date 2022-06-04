@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Documento</title>
+        <link rel="stylesheet" href="/Actividad_3/biografia/assets/css/style.css" />
+        <link rel="stylesheet" href="/Actividad_3/biografia/assets/css/datos.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Autobiografía</h1>
+        </header>
+        <nav>
+            <ul class="contenedor">
+                <li>
+                    <ul>
+                        <li>
+                            <a href="/Actividad_3/biografia/">Página principal</a>
+                        </li>
+                        <li>
+                            <a href="/Actividad_3/maquetado_1/" target="_blank" >Curriculum</a>
+                        </li>
+                        <li>
+                            <a href="/Actividad_3/maquetado_2/" target="_blank">Invitación</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/Actividad_3/biografia/pages/formulario_ingreso.html">Iniciar sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section class="datos-personales">
+                <div class="contenedor">
+                    <h2>Datos Personales</h2>
+                    <div class="datos">
+                        <img
+                            src="/Actividad_3/biografia/assets/images/imagen.png"
+                            id="icono_bio"
+                            alt="icono de persona"
+                        />
+                        <ul>
+                            <li>Jesús Alberto Mena Dzul</li>
+                            <li>19 años</li>
+                            <li>
+                                <time datetime="2002-11-03">3 de Noviembre del 2002</time>
+                            </li>
+                            <li>Mérida, Yucatán, México</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="contenedor vida-privada">
+                <h2>Familia</h2>
+                <p>
+                    Nací en una familia con 2 hermanas mayores y un hermano mayor, sus nombres son
+                    Belen, Mariana y Javier, y mis padres son José Mena y Ana Maria Dzul Chan
+                </p>
+            </section>
+            <section class="contenedor vida-privada">
+                <h2>Estudios</h2>
+                <ul>
+                    <li>
+                        <h3>Primaria</h3>
+                        <p>
+                            Estudie en la escuela primaria José Maria Morelos y Pavón junto a mis
+                            hermanas y mi hermano.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Secundaria</h3>
+                        <p>Estudie en la Secundaria Técnica #24 en el turno matutino.</p>
+                    </li>
+                    <li>
+                        <h3>Preparatoria</h3>
+                        <p>
+                            Estudie en el Centro de Bachillerato Tecnologico Industrial y de
+                            Servicios #95 en la especialidad de programación.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Universidad</h3>
+                        <p>
+                            Estudío actualmente en la Universidad Tecnologica Metropolitana en la
+                            carrera de T.S.U. de Desarrollo de Software Multiplataforma.
+                        </p>
+                    </li>
+                </ul>
+                <a href="/Actividad_3/biografia/pages/tablas.html#estudios">Ir a tabla de estudios</a>
+            </section>
+            <section class="contenedor vida-privada">
+                <h2>Pasatiempos</h2>
+                <ul>
+                    <li>Jugar Minecraft</li>
+                    <li>Eschuchar música (Rap)</li>
+                    <li>Programar</li>
+                    <li>Ver series</li>
+                </ul>
+                <a href="/Actividad_3/biografia/pages/tablas.html#pasatiempos">Ir a tabla de pasatiempos</a>
+            </section>
+
+            <section class="contenedor">
+                <h2>Deja un comentario</h2>
+                <form>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+                    </div>
+                    <div>
+                        <label for="correo">Correo:</label>
+                        <input
+                            type="email"
+                            id="correo"
+                            name="correo"
+                            placeholder="Correo: ejemplo@ejemplo.com"
+                        />
+                    </div>
+                    <div>
+                        <label for="comentario">Comentario:</label>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" />
+                    </div>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+input,
+select {
+    padding: 0.5em 1em;
+    border: 1px solid #ababab;
+    border-radius: 5px;
+}
+
+/* main */
+main {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 1em;
+    background-color: #cecece;
+}
+
+/* form */
+form {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+form .seccion-input {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form .seccion-input label {
+    text-align: right;
+}
+
+form .contenedor-input {
+    display: flex;
+    gap: 10px;
+}
+
+form .contenedor-input input,
+form .contenedor-input select {
+    width: 100%;
+}

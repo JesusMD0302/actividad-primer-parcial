@@ -1,0 +1,54 @@
+/* TABLAS */
+#tablas {
+    padding-top: 1em;
+}
+
+section.contenedor-tabla {
+    display: flex;
+    justify-content: center;
+}
+
+section .tabla {
+    max-width: 1200px;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+
+section table ul {
+    list-style: initial;
+}
+
+section #estudios {
+    width: 800px;
+}
+
+section #pasatiempos {
+    width: 900px;
+}
+
+table,
+caption,
+td {
+    border-bottom: 1px solid #8f8f8f;
+    border-collapse: collapse;
+}
+
+caption,
+th,
+td {
+    padding: 0.5em 1em;
+}
+
+caption,
+thead {
+    background: #2f1160;
+    color: #fff;
+}
+
+td {
+    background-color: #9edbff54;
+}
+
+tr:hover td {
+    background-color: #9edbff;
+}
